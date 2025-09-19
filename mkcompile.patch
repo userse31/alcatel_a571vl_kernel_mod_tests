@@ -1,0 +1,5 @@
+79,80c79
+<   echo \#define LINUX_COMPILER \"asscheeks\"
+<   #echo \#define LINUX_COMPILER \"`$CC -v 2>&1 | tail -n 1`\"
+---
+>   echo \#define LINUX_COMPILER \"`$CC -v 2>&1 | tail -n 1`\"
